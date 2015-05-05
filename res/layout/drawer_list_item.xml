@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_item_height" >
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="@dimen/drawer_left" />
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text = "Bouchie"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:ellipsize="end"
+        android:paddingLeft="@dimen/drawer_text_with_icon"
+        android:paddingRight="@dimen/drawer_right"
+        
+         />
+
+    <TextView
+        android:id="@+id/item_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/item_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/drawer_right"
+        android:padding="3dp"
+        android:textColor="#fff"
+        android:visibility="invisible" />
+
+</RelativeLayout>

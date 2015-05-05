@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crico Mania</string>
+    <string name="facts">facts</string>
+    
+    
+     <string-array name="drawer_titles">
+        <item>Matches</item>
+        <item>Players</item>
+        <item>Fast Fun Facts</item>
+        <item>Developer</item>
+    </string-array>
+
+    <array name="drawer_icons">
+        <item>@drawable/matches</item>
+        <item>@drawable/default_player</item>
+        <item>@drawable/question</item>
+        <item>@drawable/developer</item>
+    </array>
+    
+
+</resources>
