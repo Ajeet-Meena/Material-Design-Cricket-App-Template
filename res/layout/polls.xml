@@ -41,7 +41,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/polls_button"
-                    android:onClick="show_more_vote"
+                
                     android:padding="8dp"
                     android:text="MORE"
                     android:textColor="#fff" />
@@ -99,7 +99,7 @@
                     android:background="@drawable/polls_button"
                     android:padding="4dp"
                     android:text="VOTE"
-                    android:onClick="vote"
+                    
                     android:textColor="#fff" />
             </LinearLayout>
         </FrameLayout>
@@ -141,7 +141,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/polls_button"
-                    android:onClick="show_more"
+                    
                     android:padding="8dp"
                     android:text="MORE"
                     android:textColor="#fff" />
@@ -158,7 +158,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="Is it a awesome UI ?"
+                    android:text="Say Yes or No ?"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="#fff" />
 
@@ -172,7 +172,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:background="@drawable/polls_button"
-                        android:onClick="show"
+                        
                         android:padding="8dp"
                         android:text="YES"
                         android:textColor="#fff" />
@@ -183,7 +183,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:background="@drawable/polls_button"
-                        android:onClick="show"
+                        
                         android:padding="8dp"
                         android:text="NO"
                         android:textColor="#fff" />
