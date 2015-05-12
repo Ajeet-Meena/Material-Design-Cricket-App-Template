@@ -28,3 +28,5 @@ Template implementing material design concept on Cricket App
 ![Screen Shot 15](http://i.imgur.com/IgHhy14.png)
 ![Screen Shot 16](http://i.imgur.com/ji5ZnCI.png)
 ![Screen Shot 17](http://i.imgur.com/YZVvp2s.png)
+
+*Included Library:* Supported CardView, [Circular Image View](https://github.com/hdodenhof/CircleImageView)
